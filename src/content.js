@@ -31,6 +31,8 @@ export const content = {
         ctaHeadline: 'Ready to Scale with AI?',
         ctaSubheadline: 'Book a free strategy call and see how AI can transform your business.',
         ctaButton: 'Get Started Free',
+        ctaLink: '#cta', // Internal anchor
+        paymentLink: 'https://buy.stripe.com/your-main-link', // Placeholder Stripe link
         metaTitle: 'FYIAI — AI-Powered Business Solutions',
         metaDescription: 'Custom AI chatbots, lead generation, and automation for businesses. Transform your operations with FYIAI.'
     },
@@ -62,6 +64,8 @@ export const content = {
         ctaHeadline: 'Ready to Book More HVAC Jobs?',
         ctaSubheadline: 'See how AI fills your schedule — free demo, no pressure.',
         ctaButton: 'Get My Free Demo',
+        ctaLink: '#cta',
+        paymentLink: 'https://buy.stripe.com/your-hvac-link',
         metaTitle: 'FYIAI HVAC — AI Lead Generation for Heating & Cooling Companies',
         metaDescription: 'AI-powered lead generation, booking bots, and marketing automation built specifically for HVAC companies.'
     },
@@ -93,6 +97,8 @@ export const content = {
         ctaHeadline: 'Ready to Fill Your Dental Chairs?',
         ctaSubheadline: 'Book a free demo and see AI patient acquisition in action.',
         ctaButton: 'Book My Free Demo',
+        ctaLink: '#cta',
+        paymentLink: 'https://buy.stripe.com/your-dental-link',
         metaTitle: 'FYIAI Dental — AI Patient Acquisition for Dental Practices',
         metaDescription: 'AI chatbots, patient booking, and marketing automation designed specifically for dental practices.'
     },
@@ -124,6 +130,8 @@ export const content = {
         ctaHeadline: 'Ready to Sign More Cases?',
         ctaSubheadline: 'See how AI intake can transform your law firm — free strategy session.',
         ctaButton: 'Get My Free Strategy Session',
+        ctaLink: '#cta',
+        paymentLink: 'https://buy.stripe.com/your-lawyer-link',
         metaTitle: 'FYIAI Legal — AI Client Intake & Lead Generation for Law Firms',
         metaDescription: 'AI-powered client intake, lead qualification, and marketing automation built for law firms.'
     },
@@ -155,6 +163,8 @@ export const content = {
         ctaHeadline: 'Ready to Fill Every Bay?',
         ctaSubheadline: 'See how AI keeps your auto shop booked — free demo, no commitment.',
         ctaButton: 'Get My Free Demo',
+        ctaLink: '#cta',
+        paymentLink: 'https://buy.stripe.com/your-auto-link',
         metaTitle: 'FYIAI Auto — AI Lead Generation for Auto Repair Shops',
         metaDescription: 'AI-powered booking, customer retention, and marketing automation built for auto repair shops.'
     }

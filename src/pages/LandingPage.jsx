@@ -43,11 +43,11 @@ function LandingPage({ content }) {
                         {content.heroSubheadline}
                     </p>
                     <div className="hero-actions animate-in">
-                        <Button variant="primary" size="lg" href="#cta" style={{ background: content.accentGradient }}>
+                        <Button variant="primary" size="lg" href={content.ctaLink} style={{ background: content.accentGradient }}>
                             {content.ctaButton} →
                         </Button>
-                        <Button variant="secondary" size="lg" href="#services">
-                            View Services
+                        <Button variant="secondary" size="lg" href={content.paymentLink} style={{ borderColor: content.accentColor, color: content.accentColor }}>
+                            Deploy Now (Stripe)
                         </Button>
                     </div>
                     <div className="hero-stats animate-in">
@@ -169,9 +169,14 @@ function LandingPage({ content }) {
                 <div className="container cta-content">
                     <h2 className="animate-in">{content.ctaHeadline}</h2>
                     <p className="animate-in">{content.ctaSubheadline}</p>
-                    <Button variant="primary" size="xl" style={{ background: 'white', color: content.accentColor }}>
-                        {content.ctaButton} →
-                    </Button>
+                    <div className="cta-buttons animate-in" style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '2rem' }}>
+                        <Button variant="primary" size="xl" href={content.ctaLink} style={{ background: 'white', color: content.accentColor }}>
+                            {content.ctaButton} →
+                        </Button>
+                        <Button variant="secondary" size="xl" href={content.paymentLink} style={{ background: 'rgba(255,255,255,0.1)', color: 'white', border: '2px solid white' }}>
+                            Deploy System Now →
+                        </Button>
+                    </div>
                 </div>
             </section>
         </main>
