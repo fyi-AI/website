@@ -107,6 +107,8 @@
     display: flex;
     gap: 16px;
     margin-top: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hero-stats {
