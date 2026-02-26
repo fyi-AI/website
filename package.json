@@ -1,0 +1,29 @@
+{
+    "name": "fyiai-sites",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "dev:hvac": "VITE_SITE=hvac vite",
+        "dev:dental": "VITE_SITE=dental vite",
+        "dev:lawyer": "VITE_SITE=lawyer vite",
+        "dev:auto": "VITE_SITE=auto vite",
+        "build:all": "node scripts/build-all.js",
+        "build:main": "VITE_SITE=main vite build --outDir dist-main",
+        "build:hvac": "VITE_SITE=hvac vite build --outDir dist-hvac",
+        "build:dental": "VITE_SITE=dental vite build --outDir dist-dental",
+        "build:lawyer": "VITE_SITE=lawyer vite build --outDir dist-lawyer",
+        "build:auto": "VITE_SITE=auto vite build --outDir dist-auto",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.21.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react-swc": "^4.0.0",
+        "vite": "^6.0.0"
+    }
+}
