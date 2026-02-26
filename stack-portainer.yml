@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  fyiai:
+    image: ghcr.io/GHCR_OWNER/fyiai-sites:latest
+    restart: always
+    ports:
+      - "80:80"
+    deploy:
+      replicas: 1

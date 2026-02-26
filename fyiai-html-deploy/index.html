@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fyiAI - AI Business Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .bg-gradient-accent { background: linear-gradient(135deg, #6366f1, #8b5cf6); }
+        .text-gradient-accent { background: linear-gradient(135deg, #818cf8, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass-card">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <span class="text-2xl font-bold tracking-tight">fyi<span class="text-indigo-400">AI</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#features" class="hover:text-indigo-400 transition">Solutions</a>
+                        <a href="#pricing" class="hover:text-indigo-400 transition">Pricing</a>
+                        <a href="#contact" class="bg-gradient-accent px-6 py-2 rounded-full font-semibold hover:opacity-90 transition shadow-lg shadow-indigo-500/30">Book Strategy Call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="pt-32 pb-16 sm:pt-40 sm:pb-24 lg:pb-32 px-4 relative overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-indigo-600/20 blur-[100px] rounded-full point-events-none"></div>
+        <div class="max-w-7xl mx-auto text-center relative z-10">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8">
+                Automate Your Growth with <br/><span class="text-gradient-accent">Intelligent AI Systems</span>
+            </h1>
+            <p class="mt-4 max-w-2xl mx-auto text-xl text-slate-300 mb-10">
+                Turn missed calls into booked appointments. Our AI Voice Portal qualifies leads and scales your operations 24/7 without adding headcount.
+            </p>
+            <div class="flex justify-center flex-col sm:flex-row gap-4">
+                <a href="#pricing" class="bg-gradient-accent text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-xl shadow-indigo-500/20">
+                    Get The Voice Portal
+                </a>
+                <a href="#features" class="glass-card text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-800 transition">
+                    See How It Works
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Unified Offer Section -->
+    <section id="pricing" class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="glass-card rounded-3xl p-8 md:p-12 text-center relative overflow-hidden border border-indigo-500/30">
+                <div class="absolute -top-24 -right-24 w-48 h-48 bg-purple-500/30 blur-[50px] rounded-full"></div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">The Ultimate Growth Framework</h2>
+                <p class="text-slate-300 md:text-lg mb-8 max-w-2xl mx-auto">Everything your business needs to operate flawlessly around the clock.</p>
+                
+                <div class="bg-slate-900/50 rounded-2xl p-8 border border-white/5 mx-auto max-w-lg shadow-2xl">
+                    <h3 class="text-2xl font-bold text-indigo-400 mb-2">Voice Portal Powerhouse</h3>
+                    <div class="flex justify-center items-baseline mb-6">
+                        <span class="text-5xl font-extrabold text-white">$695</span>
+                        <span class="text-slate-400 ml-2">/ setup</span>
+                    </div>
+                    <ul class="text-left space-y-4 mb-8 text-slate-300">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-indigo-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Custom-Trained AI Voice Agent</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-indigo-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 24/7 Call Answering & Lead Routing</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-indigo-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Direct CRM & Calendar Integration</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-indigo-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <b>Zero Contracts. Frictionless ROI.</b></li>
+                    </ul>
+                    <a href="#contact" class="block w-full py-4 bg-white text-slate-900 font-bold rounded-xl hover:bg-slate-200 transition">Deploy My AI System</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-12 mt-20">
+        <div class="max-w-7xl mx-auto px-4 text-center text-slate-500">
+            <p>&copy; 2026 fyiAI Systems. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

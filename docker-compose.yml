@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  fyiai:
+    build: .
+    # Replace GHCR_OWNER with your GitHub user/org when pushing/pulling
+    image: ghcr.io/GHCR_OWNER/fyiai-sites:latest
+    restart: always
+    ports:
+      - "80:80"

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fyiAI HVAC - AI Dispatch & Booking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0c1821;
+            color: #f8fafc;
+        }
+
+        .bg-gradient-accent {
+            background: linear-gradient(135deg, #0ea5e9, #0284c7);
+        }
+
+        /* Cyan/Blue */
+        .text-gradient-accent {
+            background: linear-gradient(135deg, #38bdf8, #7dd3fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .glass-card {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body class="antialiased selection:bg-sky-500 selection:text-white">
+
+    <nav class="fixed w-full z-50 glass-card">
+        <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-20">
+            <span class="text-2xl font-bold tracking-tight">fyi<span class="text-sky-400">AI HVAC</span></span>
+            <a href="#pricing" class="bg-gradient-accent px-6 py-2 rounded-full font-semibold shadow-lg text-white">Fill
+                My Schedule</a>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-16 sm:pt-40 px-4 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8">
+            Never Miss Another Emergency Job with <br /><span class="text-gradient-accent">24/7 AI Dispatch</span>
+        </h1>
+        <p class="max-w-2xl mx-auto text-xl text-slate-300 mb-10">
+            When AC breaks in summer, clients call until someone answers. Our AI picks up on ring 1, diagnoses the HVAC
+            issue, and dispatches your techs automatically.
+        </p>
+        <a href="#pricing"
+            class="bg-gradient-accent text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-sky-500/20 inline-block">
+            Get The Voice Portal
+        </a>
+    </main>
+
+    <section id="pricing" class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="glass-card rounded-3xl p-8 md:p-12 text-center overflow-hidden border border-sky-500/30">
+                <h2 class="text-3xl font-bold mb-4 text-white">The HVAC Growth Machine</h2>
+
+                <div class="bg-slate-900/80 rounded-2xl p-8 border border-sky-400/20 mx-auto max-w-lg mt-8 shadow-2xl">
+                    <h3 class="text-2xl font-bold text-sky-400 mb-2">Voice Portal Powerhouse</h3>
+                    <div class="flex justify-center items-baseline mb-6">
+                        <span class="text-5xl font-extrabold text-white">$695</span>
+                        <span class="text-slate-400 ml-2">/ setup</span>
+                    </div>
+                    <ul class="text-left space-y-4 mb-8 text-slate-300">
+                        <li class="flex"><span class="text-sky-400 mr-3">❄️</span> AI Emergency Call Answering</li>
+                        <li class="flex"><span class="text-sky-400 mr-3">❄️</span> Automated Tech Dispatch & Scheduling
+                        </li>
+                        <li class="flex"><span class="text-sky-400 mr-3">❄️</span> Integrates with Housecall Pro /
+                            ServiceTitan</li>
+                        <li class="flex"><span class="text-sky-400 mr-3">❄️</span> <b>Zero Contracts. Immediate ROI.</b>
+                        </li>
+                    </ul>
+                    <a href="#contact"
+                        class="block w-full py-4 bg-white text-slate-900 font-bold rounded-xl hover:bg-slate-200 transition">Deploy
+                        AI Dispatch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

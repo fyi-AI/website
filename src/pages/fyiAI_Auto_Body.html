@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fyiAI Auto Body - AI Service Booking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a1a1a;
+            color: #f8fafc;
+        }
+
+        .bg-gradient-accent {
+            background: linear-gradient(135deg, #ef4444, #f97316);
+        }
+
+        /* Red/Orange */
+        .text-gradient-accent {
+            background: linear-gradient(135deg, #f87171, #fdba74);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .glass-card {
+            background: rgba(38, 38, 38, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body class="antialiased selection:bg-red-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass-card">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-20">
+                <span class="text-2xl font-bold tracking-tight">fyi<span class="text-red-500">AI Auto</span></span>
+                <a href="#pricing"
+                    class="bg-gradient-accent px-6 py-2 rounded-full font-semibold hover:opacity-90 shadow-lg text-white">Full
+                    Bays Guarantee</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="pt-32 pb-16 sm:pt-40 sm:pb-24 px-4 text-center">
+        <div
+            class="inline-block px-4 py-1.5 rounded-full border border-red-500/30 bg-red-500/10 text-red-400 font-semibold mb-6">
+            For Auto Collision & Repair Shops</div>
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8">
+            Keep Your Bays Full with <br /><span class="text-gradient-accent">AI Auto Booking</span>
+        </h1>
+        <p class="max-w-2xl mx-auto text-xl text-slate-300 mb-10">
+            When accidents happen, your customers want answers instantly. Our AI picks up every call, provides instant
+            general estimates, and schedules repair drop-offs directly to your calendar.
+        </p>
+        <a href="#pricing"
+            class="bg-gradient-accent text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-red-500/20 inline-block">
+            Get The Voice Portal
+        </a>
+    </main>
+
+    <!-- Unified Offer Section -->
+    <section id="pricing" class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="glass-card rounded-3xl p-8 md:p-12 text-center border-t-4 border-red-500">
+                <h2 class="text-3xl font-bold mb-4 text-white">Dominate Local Auto Repair</h2>
+
+                <div class="bg-black/50 rounded-2xl p-8 border border-white/5 mx-auto max-w-lg mt-8">
+                    <h3 class="text-2xl font-bold text-red-400 mb-2">Voice Portal Powerhouse</h3>
+                    <div class="flex justify-center items-baseline mb-6">
+                        <span class="text-5xl font-extrabold text-white">$695</span>
+                        <span class="text-slate-400 ml-2">/ setup</span>
+                    </div>
+                    <ul class="text-left space-y-4 mb-8 text-slate-300">
+                        <li class="flex"><span class="text-red-500 mr-2">✔</span> AI-Powered Repair & Towing Dispatch
+                        </li>
+                        <li class="flex"><span class="text-red-500 mr-2">✔</span> 24/7 Collision Call Answering</li>
+                        <li class="flex"><span class="text-red-500 mr-2">✔</span> Direct Calendar Booking Integration
+                        </li>
+                        <li class="flex"><span class="text-red-500 mr-2">✔</span> <b>Zero Contracts. Massive ROI.</b>
+                        </li>
+                    </ul>
+                    <a href="#contact"
+                        class="block w-full py-4 bg-white text-slate-900 font-bold rounded-xl hover:bg-gray-200 transition">Secure
+                        My Voice Portal</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
