@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Button from '../shared/Button.jsx'
+import VoiceAgent from '../shared/VoiceAgent.jsx'
 import { askGemini } from '../services/gemini.js'
 import './LandingPage.css'
 
@@ -46,6 +47,7 @@ function LandingPage({ content }) {
                         <Button variant="primary" size="lg" href={content.ctaLink} style={{ background: content.accentGradient }}>
                             {content.ctaButton} →
                         </Button>
+                        <VoiceAgent color={content.accentColor} />
                         <Button variant="secondary" size="lg" href={content.paymentLink} style={{ borderColor: content.accentColor, color: content.accentColor }}>
                             Deploy Now (Stripe)
                         </Button>
