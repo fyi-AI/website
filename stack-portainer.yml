@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   fyiai:
-    image: ghcr.io/GHCR_OWNER/fyiai-sites:latest
+    image: ghcr.io/fyi-ai/fyiai-sites:latest
     restart: always
     ports:
       - "80:80"
